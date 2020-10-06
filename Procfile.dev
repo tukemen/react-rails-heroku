@@ -1,2 +1,2 @@
-frontend: cd react-front && npm start
+frontend: cd react-front && yarn start
 backend:  rails s -p 3001

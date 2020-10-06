@@ -8,9 +8,9 @@
     "test": "test"
   },
   "scripts": {
-    "build":  "cd front && npm run install && npm run build &&cd..",
+    "build":  "cd react-front && npm run install && npm run build &&cd..",
     "deploy": "cp -a react-front/build/. public",
-    "heroku-postbuild": "npm run build && npm run deploy && echo 'Client built!"
+    "heroku-postbuild": "npm run build && npm run deploy && echo 'Client built!'"
   },
   "author": "",
   "license": "ISC"
