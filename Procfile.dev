@@ -1,0 +1,2 @@
+frontend: cd react-front && npm start
+backend:  rails s -p 3001
