@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build":  "cd react-front && npm run install && npm run build &&cd..",
-    "deploy": "cp -a react-front/build/. public",
+    "deploy": "copy -a react-front/build/. public",
     "heroku-postbuild": "npm run build && npm run deploy && echo 'Client built!'"
   },
   "author": "",
