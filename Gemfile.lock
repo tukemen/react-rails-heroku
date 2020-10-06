@@ -138,7 +138,8 @@ GEM
     websocket-extensions (0.1.5)
     zeitwerk (2.4.0)
 
-
+PLATFORMS
+  x64-mingw32
 
 DEPENDENCIES
   bootsnap (>= 1.4.2)
