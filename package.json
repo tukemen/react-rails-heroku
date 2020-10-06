@@ -2,6 +2,11 @@
   "name": "react-rails-heroku",
   "version": "1.0.0",
   "description": "This README would normally document whatever steps are necessary to get the application up and running.",
+  "engines": {
+    "node": "12.18.4",
+    "npm": "6.14.6",
+    "yarn": "1.22.5"
+  },
   "main": "index.js",
   "directories": {
     "lib": "lib",
