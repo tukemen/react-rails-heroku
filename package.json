@@ -18,5 +18,8 @@
     "heroku-postbuild": "npm run build && npm run deploy && echo 'Client built!'"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
 }
