@@ -15,7 +15,7 @@ class Home extends React.Component {
             headers: {"content-type": "application/json"}
         }
 
-        axios.get(`http://localhost:3001/hello`,fetchInit)
+        axios.get(`${process.env.REACT_APP_SERVER_URL}/hello`,fetchInit)
         .then((response) =>{
             this.setState({text: response.data.text});
             
@@ -32,7 +32,6 @@ class Home extends React.Component {
             <div>
             <h1>Home</h1>
             result:{this.state.text}
-            
             </div>
         );
     }
