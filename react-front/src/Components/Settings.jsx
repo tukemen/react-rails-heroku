@@ -5,7 +5,7 @@ class Settings extends React.Component {
         return (
             <div>
             <h1>Settings</h1>
-            <p>result:</p>
+            <p>result:</p> 
             </div>
         );
     }
