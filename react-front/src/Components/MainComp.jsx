@@ -13,16 +13,16 @@ class MainComp extends React.Component {
         return (
            
                 <div>
-                    
-                    <Navbar bg="dark" variant="dark" sticky="top">
-                        <Nav className="mr-auto">
-                                <Link to="/home">Home</Link>
-                                <Link to="/mypage">MyPage</Link>
-                                <Link to="/search">Search</Link>
-                                <Link to="/settings">Settings</Link>
+                    <header>
+                    <Navbar bg="dark" variant="dark" sticky="top" >
+                        <Nav className>
+                                <Nav.Item><Nav.Link as={Link} to="/home">Home</Nav.Link></Nav.Item>
+                                <Nav.Item><Nav.Link as={Link} to="/mypage">MyPage</Nav.Link></Nav.Item>
+                                <Nav.Item><Nav.Link as={Link} to="/search">Search</Nav.Link></Nav.Item>
+                                <Nav.Item><Nav.Link as={Link} to="/settings">Settings</Nav.Link></Nav.Item>
                         </Nav>
                     </Navbar>
-                    
+                    </header>
                     <main>    
                     <Switch>
                         <Route exact path="/home" component={Home}/>
